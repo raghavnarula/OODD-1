@@ -1,6 +1,5 @@
 def is_valid(s)
   stack = []
-
   s.split("").each do |i|
     if i == "(" or i == "[" or i=="{"
       stack.append(i)
